@@ -155,6 +155,8 @@ export const Shadows = () => (
     {Object.entries(config.theme.shadows).map(([token]) => (
       <Flex
         key={token}
+        bg="white"
+        color="black"
         boxShadow={token as any}
         align="center"
         justify="center"
